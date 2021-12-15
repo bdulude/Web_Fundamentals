@@ -1,0 +1,38 @@
+#container {
+    padding: 15px;
+    background-color: seashell;
+    width: 900px;
+}
+
+h1 {
+    text-align: center;
+    color: midnightblue;
+}
+
+img {
+    height: 200px;
+}
+
+p {
+    text-align: center;
+}
+
+.row {
+    height: 225px;
+    margin-bottom: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#row1 {
+    background-color: lightseagreen;
+}
+
+#row2 {
+    background-color: palevioletred;
+}
+
+#row3 {
+    background-color: steelblue;
+}
