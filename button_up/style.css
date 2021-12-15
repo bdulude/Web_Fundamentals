@@ -1,0 +1,37 @@
+#container {
+    margin: 50px
+}
+
+#search {
+    border-radius: 20px;
+    display: block;
+    width: 120px;
+    font-weight: bold;
+    border: 2px solid teal;
+    color: teal;
+    padding: 5px 0px;
+    margin: 10px;
+}
+
+#add {
+    display: block;
+    background-color: teal;
+    border-radius: 50%;
+    border-style: none;
+    margin: 10px;
+    color: white;
+    font-size: x-large;
+    /* font-weight: bolder; */
+    height: 40px;
+    width: 40px;
+}
+
+#createAcc {
+    background-color: rgb(86, 86, 253);
+    color: white;
+    padding: 7px 30px;
+    border: 2px solid black;
+    margin: 10px;
+    font-size: medium;
+    box-shadow: 5px 5px black;
+}
