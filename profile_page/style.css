@@ -1,0 +1,310 @@
+/* This turned into a monster and I don't have time to organize it lol */
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Roboto;
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url(fonts/Roboto-Regular.ttf);
+}
+
+#container {
+    width: 100%;
+}
+
+.nav {
+    display: flex;
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    margin-bottom: 30px;
+}
+
+#navGroup {
+    display: flex;
+    align-items: center;
+    /* width: 900px; */
+}
+
+.nav-links {
+    display: flex;
+    justify-content: flex-start;
+}
+
+li {
+    list-style: none;
+    margin-left: 15px;
+}
+
+#signOut {
+    margin-left: 300px;
+}
+
+.nav-title {
+    color: white;
+    margin-left: 150px;
+}
+
+.btn {
+    margin-right: 15px;
+    box-shadow: 5px 5px black;
+    background-color: teal;
+    color: white;
+    border: 1px solid black;
+    width: 75px;
+    height: 20px;
+}
+
+li > a {
+    color: white;
+    text-decoration: solid;
+}
+
+.active {
+    font-weight: bolder;
+}
+
+.card {
+    width: 100%;
+    margin-bottom: 50px;
+    /* height: 500px; */
+}
+
+.header {
+    background-color: darkcyan;
+    height: 100px;
+    border-radius: 2px;
+}
+
+#profilePic {
+    height: 85px;
+    width: 85px;
+    background-color: white;
+    border-radius: 50%;
+    position: relative;
+    top: 50px;
+    left: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 3px gray solid;
+}
+
+#userPic {
+    height: 75px;
+    border-radius: 50%;
+}
+
+.cardContent {
+    height: 200px;
+    border-left: 3px gray solid;
+    border-bottom: 3px gray solid;
+    border-right: 3px gray solid;
+}
+
+#name {
+    position: relative;
+    top: 50px;
+    left: 20px;
+}
+
+#location {
+    position: relative;
+    top: 60px;
+    left: 20px;
+    display: flex;
+}
+
+#locationText {
+    font-weight: bolder;
+    font-size: medium;
+}
+
+#map-marker {
+    height: 19px;
+    padding-right: 10px;
+}
+
+#about {
+    position: relative;
+    left: 20px;
+    top: 70px;
+}
+
+#about > p {
+    font-size: small;
+    font-weight: bold;
+}
+
+#edit {
+    display: flex;
+    position: relative;
+    left: 20px;
+    top: 80px;
+    align-items: center;
+}
+
+#gear {
+    height: 13px;
+    margin-right: 5px;
+}
+
+.columns {
+    display: flex;
+}
+
+#mainCol {
+    display: inline-block;
+    margin-left: 150px;
+    width: 450px;
+}
+
+.subHeader {
+    background-color: rgb(42, 42, 42);
+    width: 100%;
+    height: 40px;
+    display: flex;
+}
+
+.subTitle {
+    color: white;
+    position: relative;
+    top: 9px;
+    left: 20px;
+}
+
+.subHeading {
+    position: relative;
+    left: 20px;
+    top: 10px;
+}
+
+.eduDates {
+    position: relative;
+    left: 20px;
+    top: 20px;
+    font-weight: bold;
+    color: #999999;
+}
+
+.eduQual {
+    position: relative;
+    left: 20px;
+    top: 30px;
+    font-weight: bold;
+}
+
+#rightCol {
+    display: inline-block;
+    width: 250px;
+    margin-left: 30px;
+}
+
+#conReqNum {
+    color: black;
+    background-color: #999999;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    text-align: center;
+    position: relative;
+    left: 10px;
+    top: 5px;
+}
+
+#conReq {
+    margin-bottom: 30px;
+}
+
+#conReqNum > p {
+    position: relative;
+    top: 7px;
+    font-weight: bold;
+}
+
+.friendRowReq {
+    display: flex;
+    position: relative;
+    padding: 10px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.smallProfPic {
+    height: 50px;
+    border-radius: 50%;
+}
+
+.friendRowReq > p {
+    font-weight: bolder;
+    font-size: medium;
+}
+
+.friendButtons {
+    display: flex;
+    align-items: center;
+}
+
+.friendReqButton {
+    height: 30px;
+    margin-left: 5px;
+}
+
+#conNum {
+    color: black;
+    background-color: #999999;
+    height: 30px;
+    width: 60px;
+    border-radius: 50%;
+    text-align: center;
+    position: relative;
+    left: 10px;
+    top: 5px;
+}
+
+#conNum > p {
+    position: relative;
+    top: 7px;
+    font-weight: bold;
+}
+
+.friendRow {
+    display: flex;
+    position: relative;
+    padding-top: 10px;
+    padding-left: 10px;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.friendRow > p {
+    font-weight: bolder;
+    font-size: medium;
+    margin-left: 10px;
+}
+
+#conCard {
+    height: 250px;
+}
+
+#conCardViewMore {
+    height: 25px;
+}
+
+#conCardViewMore > a {
+    position: relative;
+    left: 20px;
+    top: 3px;
+}
+
+#conReqCard {
+    height: 150px;
+}
+
+#eduCard {
+    height: 100px;
+}
+
