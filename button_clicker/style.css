@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Roboto;
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url(Roboto-Regular.ttf);
+}
+
+#container{
+    padding-left: 150px;
+}
+
+#navBar {
+    width: 600px;
+    display: flex;
+    background-color: lightgray;
+    justify-content: space-between;
+    padding-left: 40px;
+    padding-right: 40px;
+    height: 50px;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+#search {
+    height: 20px;
+    width: 250px;
+}
+
+#login {
+    height: 25px;
+    width: 60px;
+    color: white;
+    background-color: blue;
+    border: 2px solid black;
+    box-shadow: 5px 3px black;
+}
+
+#columns {
+    display: flex;
+}
+
+#mainCol {
+    width: 492px;
+}
+
+.card {
+    border: 2px solid black;
+    padding: 10px;
+    margin-bottom: 15px;
+    height: 150px;
+    display: flex;
+}
+
+.cardLeft {
+    width: 125px;
+    padding: 10px;
+    align-items: center;
+}
+
+.cardLeft > p {
+    margin-bottom: 10px;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.noun {
+    font-weight: bold;
+    margin-left: 14px;
+}
+
+.likes {
+    width: 100px;
+    height: 30px;
+    background-color: gold;
+    border: 2px solid black;
+    box-shadow: 5px 3px black;
+}
+
+.definition {
+    font-size: large;
+    font-weight: bold;
+    padding-left: 50px;
+    padding-right: 30px;
+    padding-top: 50px;
+}
+
+#rightCol {
+    margin-left: 15px;
+}
+
+#defined {
+    border: 2px solid black;
+    height: 100px;
+    width: 150px;
+    padding: 10px;
+}
+
+#add {
+    background-color: mediumseagreen;
+    border: 2px solid black;
+    box-shadow: 5px 3px black;
+    width: 150px;
+    height: 30px;
+    margin-top: 20px;
+}
