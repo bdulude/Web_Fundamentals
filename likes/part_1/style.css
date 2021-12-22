@@ -1,0 +1,41 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+#container {
+    width: 400px;
+    margin-left: 200px;
+}
+
+#mainCol {
+    width: 100%;
+}
+
+.card {
+    border: 3px black solid;
+    margin-top: 50px;
+    padding: 15px;
+    height: 100px;
+}
+
+.cardTop {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cardBottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.likeButton {
+    background-color: gold;
+    border: 1px black solid;
+    height: 20px;
+    width: 40px;
+    box-shadow: 5px 3px black;
+}

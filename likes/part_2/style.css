@@ -1,0 +1,85 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+#container {
+    width: 550px;
+    margin-left: 200px;
+}
+
+#navBar {
+    background-color: black;
+    height: 40px;
+}
+
+#navBar > h1 {
+    color: white;
+    margin-left: 20px;
+}
+
+#columns {
+    display: flex;
+}
+
+#mainCol {
+    width: 400px;
+}
+
+#leftCol {
+    width: 150px;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.card {
+    border: 3px black solid;
+    margin-top: 50px;
+    padding: 15px;
+    height: 100px;
+}
+
+.cardTop {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cardBottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.likeButton {
+    background-color: gold;
+    border: 1px black solid;
+    height: 20px;
+    width: 40px;
+    box-shadow: 5px 3px black;
+}
+
+.feedTitle {
+    position: relative;
+    left: 210px;
+    top: 30px;
+}
+
+img {
+    height: 80px;
+    margin-left: 16px;
+    margin-bottom: 20px;
+}
+
+#user {
+    height: 200px;
+}
+
+#user > a {
+    margin-left: 9px;
+}
+
+#user > h2 {
+    margin-top: 20px;
+}
